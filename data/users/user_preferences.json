@@ -1,0 +1,6 @@
+{
+  "user_id": "U12345",
+  "preferred_notification_time": "19:00",
+  "reminder_frequency": "medium",
+  "notification_channels": ["in_app", "push"]
+}

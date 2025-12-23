@@ -1,0 +1,9 @@
+[
+  {
+    "txn_id": "TXN001",
+    "amount": 350,
+    "time": "18:45",
+    "customer_type": "repeat",
+    "status": "success"
+  }
+]

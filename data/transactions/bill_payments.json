@@ -1,0 +1,9 @@
+[
+  {
+    "bill_type": "Electricity",
+    "provider": "BSES",
+    "amount": 1850,
+    "due_date": "2025-12-25",
+    "last_paid": "2025-11-24"
+  }
+]

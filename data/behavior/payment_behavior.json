@@ -1,0 +1,10 @@
+{
+  "late_payments": 3,
+  "missed_payments": 1,
+  "average_payment_delay_days": 2,
+  "on_time_payment_rate": 0.72,
+  "total_transactions": 120,
+  "credit_utilization_ratio": 0.58,
+  "recent_payment_failures": 1,
+  "last_payment_status": "paid_late"
+}

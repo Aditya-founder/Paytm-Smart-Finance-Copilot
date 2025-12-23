@@ -1,0 +1,185 @@
+# Paytm Personalized AI Copilot 🚀
+
+A personalized AI-driven finance copilot inspired by Paytm use cases, designed to improve user experience through intelligent insights, payment reminders, and proactive notifications.
+
+This project demonstrates how AI can analyze user behavior, transaction patterns, and risk signals to deliver context-aware, explainable, and personalized financial assistance.
+
+---
+
+## 🔍 Key Features
+
+### 🤖 Personalized AI Copilot
+- Analyzes user payment behavior and merchant transactions
+- Detects deviations from normal patterns
+- Provides explainable insights and recommended actions
+
+### ⏰ Smart Payment Reminder System
+- Risk-based reminder generation
+- Personalized urgency and timing
+- Avoids unnecessary notifications for disciplined users
+
+### 🔔 Proactive Notification Engine
+- Detects abnormal behavior or sales deviations
+- Sends timely, relevant notifications
+- Prevents notification fatigue
+
+### 🧠 Explainable AI
+- Every decision is backed by:
+  - Baseline behavior
+  - Deviation detection
+  - Risk profiling
+  - User segmentation
+
+### 🗣️ LLM-powered Natural Language Explanations
+- Uses local LLM via Ollama
+- Converts structured AI decisions into user-friendly explanations
+- No external paid APIs required
+
+---
+
+## 🏗️ System Architecture
+
+Frontend (React + TypeScript)
+        ↓
+Backend (Node.js + Express)
+        ↓
+AI Service (FastAPI - Python)
+        ↓
+AI Logic (Behavior Analysis, Risk Profiling)
+        ↓
+LLM (Ollama - Phi-3 / LLaMA)
+
+---
+
+## 🧰 Tech Stack
+
+Frontend:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- ShadCN UI
+- Axios
+
+Backend:
+- Node.js
+- Express.js
+
+AI Service:
+- Python
+- FastAPI
+- Pydantic
+
+LLM:
+- Ollama (Local)
+- Phi-3 / LLaMA 3.1
+
+Data Layer:
+- Mock JSON data (Paytm-like simulation)
+- User profiles
+- Payment behavior
+- Transaction history
+- Notification history
+
+---
+
+## 📁 Project Structure
+
+paytm-smart-finance-copilot/
+│
+├── ai_service/        # AI microservice (FastAPI)
+├── backend/           # Express backend
+├── frontend/          # React frontend
+├── data/              # Mock Paytm-like JSON data
+├── README.md
+└── .gitignore
+
+---
+
+## ▶️ How to Run the Project
+
+1) Start Ollama (Required)
+
+Make sure Ollama is installed and pull a model:
+
+ollama pull phi3
+
+(Ollama runs automatically in the background on Windows)
+
+---
+
+2) Start AI Service
+
+uvicorn ai_service.main:app --reload --port 8000
+
+Check:
+http://localhost:8000/docs
+
+---
+
+3) Start Backend
+
+cd backend
+npm install
+node index.js
+
+Backend runs on:
+http://localhost:5000
+
+---
+
+4) Start Frontend
+
+cd frontend
+npm install
+npm run dev
+
+Frontend runs on:
+http://localhost:8080
+
+---
+
+## 🧪 API Endpoints
+
+Copilot:
+POST /copilot/ask
+
+Payment Reminder:
+POST /reminder/generate
+
+Notification:
+POST /notification/generate
+
+---
+
+## 📊 Data & Personalization Note
+
+The data folder contains mock JSON data simulating Paytm’s internal systems.
+
+In production:
+- JSON loaders would be replaced with secure databases or internal APIs
+- Data would be fetched using authenticated user_id
+- AI logic would remain unchanged
+
+---
+
+## 🎯 Why This Project Matters
+
+- Demonstrates AI personalization in fintech
+- Focuses on user experience, not just predictions
+- Shows production-ready microservice architecture
+- Combines rule-based logic with AI intelligence
+- Uses local LLMs for privacy and cost efficiency
+
+---
+
+## ⚠️ Disclaimer
+
+This project is a technology demonstration and is not affiliated with or endorsed by Paytm.
+All data is synthetic and used solely for educational and evaluation purposes.
+
+---
+
+## 👨‍💻 Author
+
+Built with passion to showcase AI-driven personalization in financial technology.

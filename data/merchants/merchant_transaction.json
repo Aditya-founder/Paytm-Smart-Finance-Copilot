@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2025-12-18",
+    "total_sales": 8200,
+    "upi_transactions": 76,
+    "refunds": 2,
+    "hour": 18
+  },
+  {
+    "date": "2025-12-19",
+    "total_sales": 3000,
+    "upi_transactions": 20,
+    "refunds": 5,
+    "hour": 19
+  }
+]

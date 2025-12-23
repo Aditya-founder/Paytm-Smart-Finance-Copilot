@@ -1,0 +1,8 @@
+{
+  "merchant_id": "M67890",
+  "store_name": "Sharma Kirana Store",
+  "category": "Retail",
+  "city": "Delhi",
+  "upi_enabled": true,
+  "business_hours": "9 AM - 10 PM"
+}

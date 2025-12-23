@@ -1,0 +1,6 @@
+{
+  "late_payments": 3,
+  "average_payment_delay_days": 2,
+  "active_hours": ["18:00", "21:00"],
+  "risk_level": "medium"
+}
